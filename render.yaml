@@ -6,9 +6,9 @@ services:
   - key: RABBITMQ_ERLANG_COOKIE
     value: edidiongcookievalue
   - key: RABBITMQ_DEFAULT_USER
-    value: guest
+    value: bennrabbit
   - key: RABBITMQ_DEFAULT_PASS
-    value: guest
+    value: Edidiong56
   disk:
     name: rabbitmq
     mountPath: /var/lib/rabbitmq
