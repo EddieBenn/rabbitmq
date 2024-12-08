@@ -4,11 +4,11 @@ services:
   env: docker
   envVars:
   - key: RABBITMQ_ERLANG_COOKIE
-    value: edidiongcookievalue
+    generateValue: true
   - key: RABBITMQ_DEFAULT_USER
-    value: bennrabbit
+    value: rabbitmq
   - key: RABBITMQ_DEFAULT_PASS
-    value: Edidiong56
+    generateValue: true
   disk:
     name: rabbitmq
     mountPath: /var/lib/rabbitmq
